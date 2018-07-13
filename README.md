@@ -5,7 +5,7 @@
 # Setup
 
 - Create a new [Now](now.sh) account and obtain a `NOW_TOKEN`.
-- Encrypt your `NOW_TOKEN` key with [Travis CLI](https://docs.travis-ci.com/user/environment-variables/#Encrypting-environment-variables)
+- Encrypt your `NOW_TOKEN` key with [Travis CLI](https://docs.travis-ci.com/user/environment-variables/#Encrypting-environment-variables) and replace the `ENCRYPTED_TOKEN` value in the `.travis.yml` file.
 - Install your dependencies:
 ```bash
 npm install
